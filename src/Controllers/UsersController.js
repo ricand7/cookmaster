@@ -7,7 +7,6 @@ const login = async (req, res, next) => {
     const result = await loginService(email, password);
     return res.status(200).json(result);
   } catch (e) {
-      console.log(e.message);
       next(e);
   }
 };
@@ -18,7 +17,6 @@ const create = async (req, res, next) => {
     const { result } = await Users.create(name, email, password, role);
     res.status(201).json(result);
   } catch (e) {
-      console.log(e.message);
       next(e);
   }
 };

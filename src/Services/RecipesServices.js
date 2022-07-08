@@ -74,7 +74,6 @@ const findId = async (id) => {
     return { code: 'invalid data', message: 'recipe not found' };
 }
   const recipe = await Recipes.findId(id);
-  console.log(id);
   if (recipe === null) return { code: 'invalid data', message: 'teste' };
 
   return getNewList(recipe);
@@ -83,7 +82,6 @@ const findId = async (id) => {
 const update = async (id, name, ingredients, preparation) => {
   if (!ObjectId.isValid(id)) throw errorObject;
   const { userId } = await Recipes.findId(id);
-  console.log(userId);
   await Recipes.update(id, name, ingredients, preparation);
    
   return { 
