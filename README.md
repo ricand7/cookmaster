@@ -104,7 +104,7 @@ npm install
 <br>
 <br>
 > Requisição para upload de imagem, tipo Put http://localhost:3000/recipes/iddareceita/image/
-      No campo Multipart com a chave image é enviado qualquer imagem que estiver na maquina para a api. 
+      No campo Multipart com a chave image é enviado qualquer imagem que estiver na maquina para a api
 <br>
 <br>
       
