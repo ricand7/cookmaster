@@ -1,5 +1,3 @@
-# cookmaster
-
 
 # Cookmaster Project
 
@@ -46,11 +44,11 @@ npm install
       Exemplo de Json enviado no Body:
       
   ``` 
-      {
+    {
 	"name": "teste",
 	"email": "teste26@email.com",
 	"password": "teste"
-      }
+    }
   ```
   
   
@@ -58,15 +56,16 @@ npm install
 > Requisicao para login do usuario , tipo Post http://localhost:3000/login
      Exemplo de Json enviado no Body:
   ```  
-      {
+    {
 	"email": "teste25@email.com",
 	"password": "teste"
-      }
+    }
   ``` 
   
 > Requisicao para pegar lista de receitas, tipo Get http://localhost:3000/recipes
-
-
+<br>
+<br>
+<br>
 
 > Requisicao para  criar receita, tipo Post http://localhost:3000/recipes
       Exemplo de Json enviado no Body:
@@ -80,7 +79,9 @@ npm install
      
 >  Requisicao para pegar uma receita, tipo Get http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
-      
+<br>
+<br>
+<br>
       
 > Requisicao para login de admin, tipo Post http://localhost:3000/login
       Json que deve ser enviado no Body:
@@ -93,7 +94,9 @@ npm install
   
 > Requisicao para deletar receita, tipo Delete http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
-      
+<br>
+<br>
+<br>
       
 > Requisicao para atualizar receita, tipo Put http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
@@ -106,7 +109,9 @@ npm install
 	"preparation": "texto"
       }
  ``` 
- 
+<br>
+<br>
+<br>
 > Requisicao para upload de imagem, tipo Put http://localhost:3000/recipes/iddareceita/image/
       No campo Multipart com a chave image é enviado qualquer imagem que estiver na maquina para a api. 
       
