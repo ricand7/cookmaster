@@ -40,7 +40,7 @@ npm install
 
 ## Testando as requisições
 
-> Requisicao para Criar usuario , tipo Post http://localhost:3000/users/
+> Requisição para Criar usuario , tipo Post http://localhost:3000/users/
       Exemplo de Json enviado no Body:
       
   ``` 
@@ -53,7 +53,7 @@ npm install
 <br>
 <br> 
    
-> Requisicao para login do usuario , tipo Post http://localhost:3000/login
+> Requisição para login do usuario , tipo Post http://localhost:3000/login
      Exemplo de Json enviado no Body:
   ```  
     {
@@ -64,12 +64,12 @@ npm install
 <br>
 <br>
   
-> Requisicao para pegar lista de receitas, tipo Get http://localhost:3000/recipes
+> Requisição para pegar lista de receitas, tipo Get http://localhost:3000/recipes
 <br>
 <br>
 
 
-> Requisicao para  criar receita, tipo Post http://localhost:3000/recipes
+> Requisição para  criar receita, tipo Post http://localhost:3000/recipes
       Exemplo de Json enviado no Body:
   ```   
      {
@@ -81,13 +81,13 @@ npm install
 <br>
 <br>
      
->  Requisicao para pegar uma receita, tipo Get http://localhost:3000/recipes/iddareceita
+>  Requisição para pegar uma receita, tipo Get http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
 
 <br>
 <br>
       
-> Requisicao para login de admin, tipo Post http://localhost:3000/login
+> Requisição para login de admin, tipo Post http://localhost:3000/login
       Json que deve ser enviado no Body:
    ```      
     {
@@ -98,13 +98,13 @@ npm install
 <br>
 <br>
   
-> Requisicao para deletar receita, tipo Delete http://localhost:3000/recipes/iddareceita
+> Requisição para deletar receita, tipo Delete http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
 
 <br>
 <br>
       
-> Requisicao para atualizar receita, tipo Put http://localhost:3000/recipes/iddareceita
+> Requisição para atualizar receita, tipo Put http://localhost:3000/recipes/iddareceita
       O token deve ser enviado no Header no campo Authorization(recebido no login)
       Json que deve ser enviado no Body:
   ``` 
@@ -118,7 +118,7 @@ npm install
 
 <br>
 <br>
-> Requisicao para upload de imagem, tipo Put http://localhost:3000/recipes/iddareceita/image/
+> Requisição para upload de imagem, tipo Put http://localhost:3000/recipes/iddareceita/image/
       No campo Multipart com a chave image é enviado qualquer imagem que estiver na maquina para a api. 
       
             
