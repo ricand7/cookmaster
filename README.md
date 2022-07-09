@@ -15,7 +15,7 @@ Back-end:
 
 > Backend
 ```bash
-cd api/ 
+cd pastadoprojeto/ 
 npm install
 ``` 
 ## Executando aplicação
@@ -35,7 +35,7 @@ npm install
 * Para rodar o back-end:
 
   ```
-  cd src/ && npm start
+  cd pastadoprojeto/ && npm start
   ```
 
 ## Testando as requisições
